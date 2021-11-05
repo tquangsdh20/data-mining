@@ -85,15 +85,20 @@ for rythm in rythms:
 
 rows = []
 head = 'song' + ','
+# devguy97: update keys list for keeping correctly position values
+keys = []
 for key in votes[0].keys():
     head += key + ','
+    keys.append(key)
 rows.append(head.strip())
+
 cnt = 0
 for vote in votes:
     row = str(names[cnt]) + ','
     cnt+=1
-    for v in vote.values():
-        row += str(v) + ','
+    # devguy97: update value of dictionary follow the key position of header
+    for key in keys:
+        row += str(vote[key]) + ','
     rows.append(row.strip())
 
 

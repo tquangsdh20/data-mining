@@ -11,5 +11,5 @@ Data Mining Mini Project
 ### Entity Relationship Diagram
 
 <p align="center">
-<img src=".github/databse.svg?sanitize=true">
+<img src=".github/ERD.svg?sanitize=true" height="500" width="800">
 </p>

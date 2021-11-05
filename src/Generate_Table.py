@@ -19,7 +19,7 @@ from DBMS import DB
 
 
 # Connecting to music database without calling initial function again
-db = DB('music.db')
+db = DB('./output/music.db')
 
 # Define the constants for QUERY statement
 GET_PLAYLIST_BY_USERNAME = """SELECT playlist FROM user WHERE name = ? LIMIT 1;"""

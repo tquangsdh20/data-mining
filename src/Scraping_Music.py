@@ -118,6 +118,8 @@ def insert_songs_by_range(db:DB,startID:int,endID:int):
             rcd_cnt+=1
             db.insert_song(record)
             if rcd_cnt%20==0: db.commit()
+    if not os.path.exists('./logs'):
+        os.makedirs('./logs')    
     generate_log('./logs/failures.log',log)
     db.commit()
 

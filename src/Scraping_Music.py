@@ -50,7 +50,7 @@ def generate_report(db:DB):
 # In[11]:
 
 
-db = DB('music.db')
+db = DB('./output/music.db')
 generate_report(db)
 USER_LOGS = trace_log('./logs/users.log')
 SONG_LOGS = trace_log('./logs/songs.log')

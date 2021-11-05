@@ -510,6 +510,8 @@ INSERT INTO "user" ("name", "playlist") VALUES ('grisetroseciel', '39654 439 119
 
 '''
 
+INSERT_USER = '''INSERT INTO "user" ("name","playlist") VALUES (?,?);'''
+
 INSERT_AUTHOR = '''INSERT INTO "singer" ("id","name") VALUES (?,?);'''
 
 INSERT_SONG = '''INSERT INTO "song"
@@ -545,14 +547,6 @@ class DB:
     def insert_users(self,records):
         for record in records:
             self.insert_user(record)
-        self.conn.commit()
-
-    def insert_playlist(self,record):
-        self.cur.execute(INSERT_PLAYLIST,record)
-        
-    def insert_playlists(self,records):
-        for record in records:
-            self.insert_playlist(record)
         self.conn.commit()
 
     def get_users(self):

@@ -10,7 +10,8 @@
 
 ### Data Collection
 
-All data is collected from [HopAmChuan](https://hopamchuan.com) store in the *Data Warehouse* with the purpose is based on the playlist of the user to analyze and recommend similar songs that the user might like them. The Data Warehouse has the *Entity Relationship Diagram* as the following.  
+<div align="justify">
+All data is collected from <a href="https://hopamchuan.com">HopAmChuan</a> store in the <i>Data Warehouse</i> with the purpose is based on the playlist of the user to analyze and recommend similar songs that the user might like them. The Data Warehouse has the <i>Entity Relationship Diagram</i> as the following.  </div>
 
 ### Entity Relationship Diagram
 

@@ -7,3 +7,9 @@
 </p>
 
 Data Mining Mini Project
+
+### Entity Relationship Diagram
+
+<p align="center">
+<img src=".github/databse.svg?sanitize=true">
+</p>

@@ -3,9 +3,9 @@
 </p>
 
 <p align="center"> 
-    <img src="https://img.shields.io/github/license/tquangsdh20/data-mining"> <img src = "https://img.shields.io/github/issues/tquangsdh20/data-mining"> <img src="https://img.shields.io/github/languages/count/tquangsdh20/data-mining"> <img src="https://img.shields.io/badge/R-v4.0.5-orange"> <img src = "https://img.shields.io/pypi/pyversions/memrise"> <img src="https://img.shields.io/github/last-commit/tquangsdh20/data-mining">
+    <img src="https://img.shields.io/github/license/tquangsdh20/memrise"> <img src = "https://img.shields.io/github/issues/tquangsdh20/data-mining"> <img src="https://img.shields.io/github/languages/count/tquangsdh20/data-mining"> <img src="https://img.shields.io/badge/R-v4.0.5-orange"> <img src = "https://img.shields.io/pypi/pyversions/memrise"> <img src="https://img.shields.io/github/last-commit/tquangsdh20/data-mining">
 </p>
-
+ 
 ## Data-Mining Mini Project
 
 ### Data Collection
